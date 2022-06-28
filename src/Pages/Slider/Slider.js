@@ -1,15 +1,14 @@
 import React from 'react';
+import Container from 'react-bootstrap/esm/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import CameraPhoto1_1 from '../../Images/CameraPhoto1_1.png';
-import CameraPhoto2 from '../../Images/CameraPhoto2.png';
-import CameraPhoto3 from '../../Images/CameraPhoto3.png';
 import KitsPhoto1_1 from '../../Images/KitsPhoto1_1.png';
-import KitsPhoto2 from '../../Images/KitsPhoto2.png';
 import MobilePhoto1_1 from '../../Images/MobilePhoto1_1.png';
 import './Slider.css';
 
 const Slider = () => {
-        return (
+    return (
+        <Container>
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -49,6 +48,7 @@ const Slider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        );
-    };
+        </Container>
+    );
+};
 export default Slider;
