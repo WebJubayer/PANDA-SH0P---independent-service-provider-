@@ -9,6 +9,7 @@ import Blogs from './Pages/Home/Blogs/Blogs';
 import Contacts from './Pages/Home/About/Contacts/Contacts';
 import Experts from './Pages/Experts/Experts';
 import NotFound from './Pages/NotFound/NotFound';
+import Slider from './Pages/Slider/Slider';
 ;
 
 function App() {
