@@ -8,7 +8,6 @@ import './Slider.css';
 
 const Slider = () => {
     return (
-        <Container>
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -48,7 +47,6 @@ const Slider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </Container>
     );
 };
 export default Slider;
