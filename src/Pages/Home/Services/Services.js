@@ -3,12 +3,12 @@ import { Container } from 'react-bootstrap';
 import MobilePhotography1 from '../../../Images/MobilePhotography1.png';
 import CameraPhotography1 from '../../../Images/CameraPhotography1.png';
 import VariousPhotography1 from '../../../Images/VariousPhotography1.png';
-
-
+import { Link } from 'react-router-dom';
 
 
 const Services = () => {
     return (
+        
         <div className='homeServices-body mt-4'>
         <Container>
             <div class="card-deck">
@@ -19,7 +19,7 @@ const Services = () => {
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <Link to="/about">About</Link>
                     </div>
                 </div>
                 <div class="card">
