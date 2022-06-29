@@ -16,8 +16,8 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className='text-danger'>Padukune Depka</h3>
+                        <p>Professional photographer at world most popular company <strong className='text-primary'>Programming-Hero</strong>.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +28,8 @@ const Slider = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className='text-danger'>MOST view photo </h3>
+                        <p>This is the our most view photo and one of the top selling products.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,10 +40,8 @@ const Slider = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3 className='text-danger'>MACHINE</h3>
+                        <p> believe it or not.... Without them we are nothing....</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
