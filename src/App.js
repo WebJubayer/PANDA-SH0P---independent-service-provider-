@@ -9,13 +9,12 @@ import Blogs from './Pages/Home/Blogs/Blogs';
 import Contacts from './Pages/Home/About/Contacts/Contacts';
 import Experts from './Pages/Experts/Experts';
 import NotFound from './Pages/NotFound/NotFound';
-import Slider from './Pages/Slider/Slider';
-;
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
@@ -25,32 +24,9 @@ function App() {
         <Route path='/contacts' element={<Contacts></Contacts>}></Route>
         <Route path='/experts' element={<Experts></Experts>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
-
       </Routes>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <Footer></Footer>
+
+      {/* <Footer></Footer> */}
 
     </div>
   );
