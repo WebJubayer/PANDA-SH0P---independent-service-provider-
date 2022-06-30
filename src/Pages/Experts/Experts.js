@@ -1,8 +1,9 @@
 import React from 'react';
+import './Experts.css';
 
 const Experts = () => {
     return (
-        <div>
+        <div className='experts-body'>
             <h4>here is our EXPERTS</h4>
         </div>
     );

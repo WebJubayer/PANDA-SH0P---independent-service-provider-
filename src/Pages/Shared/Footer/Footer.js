@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className='footer-body'>
+        <footer className='footer-body mt-5'>
             <div className='footer-description d-flex justify-content-center align-items-center'>
                 <p>Footer Vai Boin here <br></br> <span className='copyright'>Copyright Ⓒ2022 </span></p>
             </div>
