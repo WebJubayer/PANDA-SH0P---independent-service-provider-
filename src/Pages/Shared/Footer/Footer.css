@@ -1,0 +1,28 @@
+.footer-body{
+    min-height: 300px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.footer-description{
+    font-weight: bold;
+    font-size: 30px;
+}
+.copyright{
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
