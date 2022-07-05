@@ -3,11 +3,72 @@ import { Container } from 'react-bootstrap';
 import Butterfly from '../../../Images/Butterfly.png';
 import MobilePhoto3 from '../../../Images/MobilePhoto3.png';
 import Photographer5 from '../../../Images/Photographer5.png';
+import MobilePhotography1 from '../../../Images/MobilePhotography1.png';
+import CameraPhotography1 from '../../../Images/CameraPhotography1.png';
+import VariousPhotography1 from '../../../Images/VariousPhotography1.png';
+import { Link } from 'react-router-dom';
 
 const HomeServices = () => {
     return (
         <div className='services-body mt-3'>
         <Container>
+
+
+
+
+        <div className='homeServices-body mt-4'>
+        <h3 className='mt-4 mb-4 text-primary'>Category</h3>
+            <div class="row card-deck">
+                <div class="card col-sm-12 col-md-4 col-lg-4">
+                    <img class="card-img-top" src={MobilePhotography1} alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile Photography</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-4 col-lg-4">
+                    <img class="card-img-top" src={CameraPhotography1} alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Camera Photography</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 13 mins ago</small>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-4 col-lg-4">
+                    <img class="card-img-top" src={VariousPhotography1} alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Various Photography</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 23 mins ago</small>
+                    </div>
+                </div>
+
+
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <h3 className='mt-4 mb-4 text-primary'>Daily Updates</h3>
             <div class="card-columns">
                 <div class="card p-3">
