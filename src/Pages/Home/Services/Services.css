@@ -1,4 +1,6 @@
-
+.services-body{
+    min-height: 600px;
+}
 .services-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

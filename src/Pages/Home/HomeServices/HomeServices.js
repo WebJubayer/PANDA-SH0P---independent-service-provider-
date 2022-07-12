@@ -13,14 +13,11 @@ const HomeServices = () => {
         <div className='services-body mt-3'>
         <Container>
 
-
-
-
         <div className='homeServices-body mt-4'>
         <h3 className='mt-4 mb-4 text-primary'>Category</h3>
             <div class="row card-deck">
                 <div class="card col-sm-12 col-md-4 col-lg-4">
-                    <img class="card-img-top" src={MobilePhotography1} alt="Card image cap" />
+                    <img class="card-img-top mt-2" src={MobilePhotography1} alt="" />
                     <div class="card-body">
                         <h5 class="card-title">Mobile Photography</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -30,7 +27,7 @@ const HomeServices = () => {
                     </div>
                 </div>
                 <div class="card col-sm-12 col-md-4 col-lg-4">
-                    <img class="card-img-top" src={CameraPhotography1} alt="Card image cap" />
+                    <img class="card-img-top mt-2" src={CameraPhotography1} alt="" />
                     <div class="card-body">
                         <h5 class="card-title">Camera Photography</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -40,7 +37,7 @@ const HomeServices = () => {
                     </div>
                 </div>
                 <div class="card col-sm-12 col-md-4 col-lg-4">
-                    <img class="card-img-top" src={VariousPhotography1} alt="Card image cap" />
+                    <img class="card-img-top mt-2" src={VariousPhotography1} alt="" />
                     <div class="card-body">
                         <h5 class="card-title">Various Photography</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>

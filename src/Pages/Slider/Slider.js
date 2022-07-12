@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/esm/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import CameraPhoto1_1 from '../../Images/CameraPhoto1_1.png';
 import KitsPhoto1_1 from '../../Images/KitsPhoto1_1.png';
