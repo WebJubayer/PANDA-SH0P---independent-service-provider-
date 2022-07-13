@@ -14,7 +14,8 @@ const Services = () => {
 
     return (
         <div id="services" className='container services-body'>
-            <h1 className='text-primary text-center mb-5 '> Our Services</h1>
+            <h1 className='text-primary text-center mt-3 mb-5 '> Our Services</h1>
+            <p className='text-left'>Note: you can checkout one item at once</p>
             <div className="row">
             <div className="services-container">
             {

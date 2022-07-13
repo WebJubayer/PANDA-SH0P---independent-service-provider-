@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Register = () => {
   return (
-    <div>
+    <div className='mt-5'>
       Please Register to
       <h3>Photographer's Destination</h3>
 
@@ -27,14 +27,11 @@ const Register = () => {
           <Form.Control placeholder="1234 Main St" />
         </Form.Group>
 
-        <Form.Group className="mb-3" id="formGridCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
+      <p>Already have an account? <strong><Link to="/login" className='text-primary pe-auto text-decoration-none'>Please Login</Link> </strong></p>
 
 
 
