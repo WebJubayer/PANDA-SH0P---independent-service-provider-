@@ -11,6 +11,7 @@ import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Checkout from './Pages/Checkout/Checkout';
+import SuccessChekout from './Pages/Checkout/SuccessChekout';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/experts' element={<Experts></Experts>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/checkout' element={<Checkout></Checkout>}></Route>
+        <Route path='/successcheckout' element={<SuccessChekout></SuccessChekout>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
 

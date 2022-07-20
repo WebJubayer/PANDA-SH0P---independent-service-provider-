@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   min-height: 600px;
+  overflow-x: hidden;
 }
 
 .mainscreen {
@@ -118,7 +119,7 @@ p {
   }
 
   .leftside {
-    width: 100%;
+    width: auto;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 0;
@@ -131,4 +132,31 @@ p {
     padding: 0.5rem 3rem 3rem 2rem;
     border-radius: 0;
   }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .checkout-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow-x: hidden;
+  }
+
+  .leftside {
+    width: 41%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 0;
+    /* margin-left: 3px; */
+  }
+
+  .rightside {
+    width: 41%;
+    border-bottom-left-radius: 1.5rem;
+    padding: 0.5rem 3rem 3rem 2rem;
+    border-radius: 0;
+  }
+
+
 }
