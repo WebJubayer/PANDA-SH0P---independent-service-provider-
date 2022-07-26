@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     return (
@@ -20,7 +21,9 @@ const Login = () => {
                 </Button>
             </Form>
             <p>New to Photographer's Destination? <strong><Link to="/register" className='text-primary pe-auto text-decoration-none'>Please Register</Link> </strong></p>
-            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none'><strong>Reset Password</strong> </button> </p>
+            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none'><strong className='text-decoration-none'>Reset Password</strong> </button> </p>
+
+            <SocialLogin></SocialLogin>
 
         </div>
 

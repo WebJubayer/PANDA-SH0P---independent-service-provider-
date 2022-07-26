@@ -1,10 +1,12 @@
 import React from 'react';
-import {Form, Button, Row, Col} from 'react-bootstrap'
+import {Form, Button, Row, Col, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import SocialLogin from '../Login/SocialLogin/SocialLogin';
 
 const Register = () => {
   return (
-    <div className='mt-5'>
+    <div >
+      <Container className='mt-5'>
       Please Register to
       <h3>Photographer's Destination</h3>
 
@@ -22,20 +24,14 @@ const Register = () => {
           </Form.Group>
         </Row>
 
-        <Form.Group className="mb-3" controlId="formGridAddress1">
-          <Form.Label>Address</Form.Label>
-          <Form.Control placeholder="1234 Main St" />
-        </Form.Group>
-
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
       <p>Already have an account? <strong><Link to="/login" className='text-primary pe-auto text-decoration-none'>Please Login</Link> </strong></p>
+      <SocialLogin></SocialLogin>
 
-
-
-
+      </Container>
     </div>
 
   );
