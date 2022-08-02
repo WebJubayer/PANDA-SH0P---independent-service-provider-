@@ -34,7 +34,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
 
-        p
+        n
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
